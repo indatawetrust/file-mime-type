@@ -1,0 +1,34 @@
+{
+  "name": "file-mime-type",
+  "version": "0.0.1",
+  "description": "returns mime type information of the specified file",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node bin/index img.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indatawetrust/file-mime-type.git"
+  },
+  "keywords": [
+    "file",
+    "mime",
+    "type"
+  ],
+  "bin": {
+    "file-mime-type": "bin/index.js"
+  },
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/file-mime-type/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/file-mime-type#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "dependencies": {
+    "file-type": "^6.1.0",
+    "read-chunk": "^2.1.0"
+  }
+}
