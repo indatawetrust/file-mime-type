@@ -1,5 +1,5 @@
 {
-  "name": "file-mime-type",
+  "name": "file-mt",
   "version": "0.0.1",
   "description": "returns mime type information of the specified file",
   "main": "lib/index.js",
